@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14  # You can adjust the Node.js version as needed
+
+  pre_build:
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - npm test
+
+artifacts:
