@@ -20,4 +20,6 @@ artifacts:
   files:
     - buildspec.yml
     - node_modules/**/*
+    - index.js
+    - package.json
   discard-paths: yes
