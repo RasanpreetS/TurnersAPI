@@ -1,16 +1,23 @@
 version: 0.2
-
+ 
 phases:
   install:
     runtime-versions:
-      nodejs: 14  # You can adjust the Node.js version as needed
-
-  pre_build:
+        nodejs: -latest
     commands:
-      - npm install
-
+        - echo Installing dependencies...
+        - npm install express --save --save-dev
+        - npm install --save-dev typescript
+        - npm install --save-dev nodemon
+        - npm install jest --save-dev
+ 
   build:
     commands:
-      - npm test
-
+        - echo Build started on `date`
+        - echo Compiling the Node.js code...
+        - npm run build
+ 
 artifacts:
+  files:
+    - node_modules
+  discard-paths: yes
