@@ -15,9 +15,9 @@ phases:
     commands:
         - echo Build started on `date`
         - echo Compiling the Node.js code...
-        - zip -r app.zip
  
 artifacts:
   files:
-    - node_modules
+    - buildspec.yml
+    - node_modules/**/*
   discard-paths: yes
