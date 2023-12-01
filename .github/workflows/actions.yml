@@ -1,4 +1,4 @@
-name: Build and deploy Node.js app to Azure Web App - turnerAPI
+name: Build and deploy Node.js app to Azure Web App - m3turnersapicv
 
 on:
   push:
@@ -62,4 +62,4 @@ jobs:
           app-name: 'm3turnersapicv'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_TurnersAPI }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_TurnerApiCV }}
