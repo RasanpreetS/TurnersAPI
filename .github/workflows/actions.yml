@@ -62,4 +62,4 @@ jobs:
           app-name: 'm3turnersapicv'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_M3CVAPI }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_TurnersAPI }}
