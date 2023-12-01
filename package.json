@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "jest",
+    "test": "sh node_modules/.bin/jest",
     "test:watch": "jest --watchAll"
   },
   "keywords": [],
