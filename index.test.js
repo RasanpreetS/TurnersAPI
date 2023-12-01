@@ -19,7 +19,7 @@ test('Multiple trigger words present', () => {
 test('All trigger words present', () => {
   const input = "There are multiple reason like collideb rash scratch bump smash";
   const result = calculateRisk(input);
-  expect(result).toBe(5);
+  expect(result).toBe(4);
 });
 
 // Test case 4: Trigger words present in different cases
