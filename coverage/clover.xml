@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1701763624206" clover="3.2.0">
-  <project timestamp="1701763624206" name="All files">
+<coverage generated="1701763690755" clover="3.2.0">
+  <project timestamp="1701763690755" name="All files">
     <metrics statements="21" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="2" elements="31" coveredelements="14" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
     <file name="utils.js" path="C:\Users\rasan\TurnerAPI\utils.js">
       <metrics statements="21" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="2"/>
